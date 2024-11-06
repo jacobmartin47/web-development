@@ -1,0 +1,29 @@
+The minimum and maximum pixel dimensions for a full-screen `div` (`100vw` by `100vh`) depend on the range of screen resolutions in common devices. Here’s a general overview:
+
+### Minimum Pixel Dimensions
+
+- **Minimum Width**: Approximately **320 pixels**
+- **Minimum Height**: Approximately **480 pixels**
+
+This minimum size is typical for smaller, older smartphones with low resolutions, like the iPhone 4. For modern mobile screens, the width typically starts at around **360 pixels**.
+
+### Maximum Pixel Dimensions
+
+- **Maximum Width**: Up to **7680 pixels**
+- **Maximum Height**: Up to **4320 pixels**
+
+This maximum size corresponds to an **8K display** (7680x4320 pixels), which is common for high-end TVs and some advanced monitors.
+
+### Summary Table of Common Resolutions
+
+| Device Type      | Typical Width | Typical Height |
+|------------------|---------------|----------------|
+| Small Mobile     | 320px         | 480px         |
+| Standard Mobile  | 360px         | 640px         |
+| Tablet           | 768px         | 1024px        |
+| Laptop (HD)      | 1366px        | 768px         |
+| Desktop (Full HD)| 1920px        | 1080px        |
+| 4K Monitor       | 3840px        | 2160px        |
+| 8K Monitor       | 7680px        | 4320px        |
+
+To make your `div` fully responsive, using `100vw` and `100vh` is ideal, as it automatically adjusts to the exact pixel dimensions of any screen size.
